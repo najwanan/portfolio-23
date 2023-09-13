@@ -1,4 +1,4 @@
-import Amazon from '../public/Assets/Amazon.svg'
+import Amazon from '../src/assets/Amazon.svg'
 
 //create component for footer with single image using Amazon image
 
