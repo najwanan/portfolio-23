@@ -2,7 +2,7 @@
 // import ProjectTile from "../components/ProjectTile.jsx";
 
 
-export const projects = [
+export const projectText = [
   {
     title: "Data Umbrella",
     image: "../src/assets/DataUmbrella.svg"

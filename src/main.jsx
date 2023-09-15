@@ -6,6 +6,7 @@ import Header from '../components/header.jsx'
 import Hero from '../components/Hero.jsx'
 import Footer from '../components/Footer.jsx'
 import Bio from '../components/Bio.jsx'
+import Work from '../components/Work.jsx'
 import ProgramEquity from '../components/ProgramEquity.jsx'
 
 import './index.css'
@@ -15,7 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <StyledEngineProvider injectFirst>
     <Header />
     <Hero />
-    <Bio />
+      <Bio />
+      <Work />
       <App />
       <ProgramEquity />
     <Footer/>
