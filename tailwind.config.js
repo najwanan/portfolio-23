@@ -17,6 +17,7 @@ export default {
           poppy: "#F23030",
           black: "#1C1C1C",
           white: "#FEFFFF",
+          cream: "#FEFAE0",
         },
       },
       fontFamily: {
