@@ -6,7 +6,7 @@ const Header = () => {
             <div className="flex flex-row space-x-1 mr-12 ">
             <h1 className="font-mono text-yellow-300 text-3xl p-6">About</h1>
             <h1 className="font-mono text-yellow-300 text-3xl  p-6">Work</h1>
-                <h1 className="font-mono text-yellow-300 text-3xl  p-6">Blog</h1>
+                <h1 className="font-mono text-yellow-300 text-3xl  p-6">Learn</h1>
                 <h1 className="font-mono text-yellow-300 text-3xl  p-6">Contact</h1>
         </div>
           
