@@ -9,11 +9,14 @@ import Bio from '../components/Bio.jsx'
 import Work from '../components/Work.jsx'
 import ProgramEquity from '../components/ProgramEquity.jsx'
 
+
 import './index.css'
+// import MobileNavBar from '../components/MobileNavBar.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
+      {/* <MobileNavBar /> */}
     <Header />
     <Hero />
       <Bio />

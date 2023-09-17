@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
+
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
     extend: {
       colors: {
@@ -25,8 +28,31 @@ export default {
         dmserif: ["DM Serif Text"],
         mono: ["Victor Mono", "monospace"],
       },
+
+      textShadow: {
+        default: "0 2px 5px rgba(0, 0, 0, 0.5)",
+        lg: "0 2px 10px rgba(0, 0, 0, 0.5)",
+        xl: "0 2px 15px rgba(0, 0, 0, 0.5)",
+      },
     },
   },
-  plugins: [],
+plugins: [
+
+    function ({ addUtilities }) {
+      const newUtilities = {
+        ".text-shadow-default": {
+          textShadow: "var(--text-shadow-default)",
+        },
+        ".text-shadow-lg": {
+          textShadow: "var(--text-shadow-lg)",
+        },
+        ".text-shadow-xl": {
+          textShadow: "var(--text-shadow-xl)",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+  ],
 };
+
 

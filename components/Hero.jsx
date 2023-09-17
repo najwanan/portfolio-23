@@ -10,10 +10,7 @@ export default function Hero() {
                 <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-poppy" />
 
                   <div className="flex flex-col h-screen  w-1/12 justify-center items-center bg-port-sunset" />
-
                 <div className="flex flex-col h-screen w-1/6 justify-center items-center bg-port-tangerine" />
-               
-    
                 <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-citron border-solid border-black" />
                 
                 <div className="flex flex-col h-screen w-1/6 justify-center items-center bg-port-turquiose" />
@@ -27,8 +24,6 @@ export default function Hero() {
                 <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-poppy" />
                  <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-magenta" />
                  
-          
-                  
             </section>
  
     </div>
