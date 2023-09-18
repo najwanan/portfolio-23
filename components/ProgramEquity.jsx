@@ -11,7 +11,7 @@ const ProgramEquity = () => {
             Program Equity
             <span className="relative inline-block">
               <span className="absolute inline-block w-full h-2 p-4 bg-port-turquiose "></span>
-              <span className="relative"> Pathways Future Etc </span>
+              <h3 className="relative"> Software Engineering Fellowship </h3>
             </span>
           </h2>
         </div>
@@ -26,7 +26,7 @@ text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
 
             <h3 className="mt-8 text-lg font-mono font-semibold text-gray-900">Interested in Joining?</h3>
             <p className="mt-4 text-lg font-dmserif text-gray-700 
-text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+text-left">Applications are closed for the Fall 2023 Cohort. If you are interested in joining for a future cohort as a mentor or fellow, check out this <span><a className="cursor-pointer underline"href="https://programequity.notion.site/ProgramEquity-Open-Source-Fellows-5f4dfc06109842779b81e8166c056334" target="_blank" rel="noreferrer">page.</a></span></p>
             
             <h3 className="mt-8 text-lg font-mono font-semibold text-gray-900">Connect with Us:</h3>
             <p>

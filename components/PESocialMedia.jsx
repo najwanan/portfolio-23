@@ -8,7 +8,7 @@ function PESocialMedia () {
         <div>
             <div className=" flex flex-row space-x-4 mt-8 justify-center">
             <a
-              href="https://www.linkedin.com/company/programequity/"
+              href="https://github.com/ProgramEquity"
               target="_blank"
               rel="noreferrer"
               className="pl-1"
@@ -39,7 +39,7 @@ function PESocialMedia () {
             />
           </a>
           <a
-            href="https://www.linkedin.com/company/programequity/"
+            href="https://dev.to/programequity"
             target="_blank"
             rel="noreferrer"
             className="pl-1"
