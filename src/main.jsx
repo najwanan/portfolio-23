@@ -1,8 +1,8 @@
 import React from 'react';
-
 import ReactDOM from 'react-dom/client'
 import { StyledEngineProvider } from '@mui/material/styles';
-import App from './App.jsx'
+import App from './App.jsx';
+// import MobileNavBar from '../components/MobileNavBar.jsx';
 import Header from '../components/header.jsx'
 import Hero from '../components/Hero.jsx'
 import Footer from '../components/Footer.jsx'

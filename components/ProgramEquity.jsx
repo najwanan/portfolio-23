@@ -27,7 +27,12 @@ text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
             <h3 className="mt-8 text-lg font-mono font-semibold text-gray-900">Interested in Joining?</h3>
             <p className="mt-4 text-lg font-dmserif text-gray-700 
 text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <PESocialMedia/>
+            
+            <h3 className="mt-8 text-lg font-mono font-semibold text-gray-900">Connect with Us:</h3>
+            <p>
+              <PESocialMedia/>
+            </p>
+          
           </div>
 
           <div className="md:ml-16">

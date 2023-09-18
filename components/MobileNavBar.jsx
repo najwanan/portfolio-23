@@ -1,12 +1,10 @@
 import { useState, useRef, useEffect } from 'react';
-
 import { withRouter } from 'next/router';
-
 import HamReg from '../src/assets/HamReg.svg';
 import HamX from '../src/assets/HamX.png';
 
 
-function MobileNav() {
+function MobileNavBar() {
 	const [menuOpen, setMenuOpen] = useState(false);
 	const closeButton = useRef(null);
 	const router = withRouter();
@@ -69,4 +67,4 @@ function MobileNav() {
 	);
 }
 
-export default MobileNav;
+export default MobileNavBar;

@@ -1,8 +1,11 @@
+import TypeWriterEffect from 'react-typewriter-effect';
+
+
 export default function Hero() {
     return (
 //create a component called Hero with vertical divs that run the full height of the page
-        <div>
-            <section className="flex flex-row">
+        <div className="w-full">
+            <section className="hidden md:flex flex-row z-0">
                 {/* <div className="flex flex-col h-screen w-1/10 justify-center items-center bg-port-citron border-solid border-black" /> */}
                 <div className="flex flex-col h-screen w-1/6 justify-center items-center bg-port-turquiose" />
                 <div className="flex flex-col h-screen w-1/6 justify-center items-center bg-port-magenta" />
@@ -24,6 +27,43 @@ export default function Hero() {
                 <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-poppy" />
                  <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-magenta" />
                  
+        </section>
+
+        <div className="z-10 bg-transparent absolute top-1/2 left-0 w-full">
+         <h1 className="z-10 font-poppins sm:text-xl md:text-6xl text-bold text-port-white">Najwana Nashmin</h1>
+        </div>
+
+        <div className="z-10 bg-transparent absolute top-6/8 w-full">
+         <TypeWriterEffect
+        textStyle={{
+          fontFamily: 'Poppins',
+          color: '#3F3D56',
+          fontWeight: 500,
+          fontSize: '1.5em',
+        }}
+        startDelay={2000}
+        cursorColor="#3F3D56"
+        multiText={[
+          'Hey there, This is a type writer animation package',
+
+        ]}
+        loop={true}
+        nextTextDelay={1000}
+        typeSpeed={30}
+      />
+      </div>
+    
+        
+         <section className="flex md:hidden flex-row">
+                {/* <div className="flex flex-col h-screen w-1/10 justify-center items-center bg-port-citron border-solid border-black" /> */}
+                <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-turquiose" />
+                <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-magenta" />
+                
+                <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-poppy" />
+
+                  <div className="flex flex-col h-screen  w-1/12 justify-center items-center bg-port-sunset" />
+                <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-tangerine" />
+                <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-citron border-solid border-black" />
             </section>
  
     </div>

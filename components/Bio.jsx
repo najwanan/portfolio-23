@@ -1,10 +1,15 @@
 
 import WorkHistoryTab from "./WorkHistoryTab"
 
+
 function Bio() {
   return (
+
+     
     <div className="h-screen w-screen justify-center bg-port-cream">
-          <h1 className ="text-3xl text-bold font-poppins pt-12">Bio</h1>
+       <div className="py-4">
+         <div className="justify-left text-7xl font-extrabold text-poppins text-black">Bio</div>
+        </div>
           <WorkHistoryTab />
     </div>
   )
