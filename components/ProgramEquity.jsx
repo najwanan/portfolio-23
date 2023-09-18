@@ -1,4 +1,7 @@
 //boilerplate for react component
+import PECarousel from "./PECarousel";
+import PESocialMedia from "./PESocialMedia";
+
 const ProgramEquity = () => {
   return (
     <section className="py-10 bg-port-cream sm:py-16 lg:py-24 ">
@@ -24,10 +27,12 @@ text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm
             <h3 className="mt-8 text-lg font-mono font-semibold text-gray-900">Interested in Joining?</h3>
             <p className="mt-4 text-lg font-dmserif text-gray-700 
 text-left">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <PESocialMedia/>
           </div>
 
-          <div>
-            <img className="w-full mx-auto sm:max-w-xs" src="https://images.unsplash.com/photo-1534126416832-a88fdf2911c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fHBvcnRyYWl0JTIwb2YlMjB3b21hbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="" />
+          <div className="md:ml-16">
+            <PECarousel/>
+          
           </div>
         </div>
       </div>

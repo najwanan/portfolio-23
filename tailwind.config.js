@@ -6,8 +6,9 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
-  
+
   theme: {
     extend: {
       colors: {
@@ -36,22 +37,10 @@ export default {
       },
     },
   },
-plugins: [
+  plugins: [
+    /*eslint-env node*/
+  require("daisyui"),
 
-    function ({ addUtilities }) {
-      const newUtilities = {
-        ".text-shadow-default": {
-          textShadow: "var(--text-shadow-default)",
-        },
-        ".text-shadow-lg": {
-          textShadow: "var(--text-shadow-lg)",
-        },
-        ".text-shadow-xl": {
-          textShadow: "var(--text-shadow-xl)",
-        },
-      };
-      addUtilities(newUtilities);
-    },
   ],
 };
 
