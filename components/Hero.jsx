@@ -33,18 +33,18 @@ export default function Hero() {
          <h1 className="z-10 font-poppins sm:text-xl md:text-6xl text-bold text-port-white">Najwana Nashmin</h1>
         </div>
 
-        <div className="z-10 bg-transparent absolute top-6/8 w-full">
+        <div className="z-10 bg-transparent ml-36 absolute top-3/4 w-full">
          <TypeWriterEffect
         textStyle={{
           fontFamily: 'Poppins',
-          color: '#3F3D56',
+          color: '#FEFAE0',
           fontWeight: 500,
           fontSize: '1.5em',
         }}
         startDelay={2000}
-        cursorColor="#3F3D56"
+        cursorColor="#FEFAE0"
         multiText={[
-          'Hey there, This is a type writer animation package',
+          `Hey there I&aposm a software engineer`,
 
         ]}
         loop={true}

@@ -18,11 +18,11 @@ const ProgramEquity = () => {
 
         <div className="grid grid-cols-1 mt-8 md:mt-20 gap-y-6 md:grid-cols-2 gap-x-10">
           <div>
-            <h3 className="text-lg font-mono font-semibold text-gray-900">Software Engineering Fellowship.</h3>
+            <h3 className="text-lg font-mono font-semibold text-gray-900">Helping the next generation of software engineers ship climate tech</h3>
             <p className="mt-4 font-dmserif text-lg text-gray-700 
-text-left">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+text-left">Program Equity provides open source mentorship through the software engineering fellowship with a goal of bridging the gap between bootcamp curriculum and enterprise architecture workflows .</p>
             <p className="mt-4 text-lg font-dmserif text-gray-700 
-text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+text-left"> Over the course of 12 weeks fellows get the opportunity to collaborate with a network of mentors that cover everything from security best practices to developer relations. Together our combined efforts maintain PE’s main product Amplify, a tool used to enable climate change policies. </p>
 
             <h3 className="mt-8 text-lg font-mono font-semibold text-gray-900">Interested in Joining?</h3>
             <p className="mt-4 text-lg font-dmserif text-gray-700 
