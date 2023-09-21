@@ -1,4 +1,4 @@
-import CarouselCard1 from '../src/assets/CarouselCard1.svg'
+import CarouselCard1 from '../assets/CarouselCard1.svg'
 import CarouselCard from '../assets/CarouselCard.svg'
 import CarouselCard2 from '../assets/CarouselCard2.svg'
 
