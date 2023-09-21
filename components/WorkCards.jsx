@@ -18,9 +18,9 @@ export default function WorkCards() {
     <img src={DUImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="text-md text-port-black font-dmserif text-justify w-3/4 mt-8 mb-6">Data Umbrella is a focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events</p> 
+      <p className="hidden md:block text-md  text-port-black font-dmserif text-justify w-full mt-8 mb-6">Data Umbrella focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events</p> 
      
-          <div className="flex justify-left space-x-12 my-4">  
+          <div className="flex flex-row justify-left space-x-12 my-4">  
   
             <button
               className="bg-port-citron text-gray-700  px-4 py-2 rounded-md w-1/3"
@@ -52,7 +52,7 @@ export default function WorkCards() {
     <img src={RANDImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="text-md text-port-black font-dmserif text-justify w-3/4 mt-8 mb-6">Al unirte a nuestro programa de fidelización y tokenización de puntos, conseguirás obtener puntos con cada compra y canjearlos por descuentos exclusivos, regalos especiales o convertirlos en criptomonedas.</p> 
+      <p className=" hidden md:block text-md text-port-black font-dmserif text-justify w-full mt-8 mb-6">CAREP is a hub for generating inclusive, multi-sector policy ideas that center diverse cross-sections of people. It emerged from an effort by RAND to assess policy analysis, and the role of factors related to equity in policy. The center also collaborates with organizations dedicated to advancing racial equity.</p> 
      
     <div className="flex justify-left space-x-12 my-4">       
             <button className="bg-port-citron text-gray-700  px-4 py-2 rounded-md w-1/3"
@@ -82,7 +82,7 @@ export default function WorkCards() {
     <img src={DUImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="text-md text-port-black font-dmserif text-justify w-3/4 mt-8 mb-6">Insight Agent is a project for Build Justly, An organization that  build tools, processes, programs, and research to further digital equity efforts and make technology building practice less exclusionary.</p> 
+      <p className="hidden md:block text-md text-port-black font-dmserif text-justify w-full mt-8 mb-6">Insight Agent is a project for Build Justly, An organization that  build tools, processes, programs, and research to further digital equity efforts and make technology building practice less exclusionary.</p> 
      
     <div className="flex justify-left space-x-12 my-4">       
         <button className="btn-glass bg-port-citron text-gray-700  px-4 py-2 rounded-md w-1/3">  Code </button>

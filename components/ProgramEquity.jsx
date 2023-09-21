@@ -9,15 +9,13 @@ const ProgramEquity = () => {
         <div className=" text-left md:max-w-lg lg:max-w-2xl md:text-left"> 
           <h2 className="text-3xl font-bold leading-tight p-4 rounded-xl text-port-cream bg-port-black sm:text-4xl lg:text-5xl lg:leading-tight textShadow-default">
             Program Equity
-           
-             
-              
+          
               <h3 className="relative"> Software Engineering Fellowship </h3>
        
           </h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 w-full mt-8 md:mt-20 gap-y-6 gap-x-10">
+        <div className="grid grid-row-2 lg:grid-cols-2 w-full  mt-8 md:mt-20 gap-y-6 gap-x-10">
           <div>
             <h3 className="text-lg text-left font-mono font-semibold text-gray-900">Helping the next generation of software engineers ship climate tech</h3>
             <p className="mt-4 font-dmserif text-lg  text-gray-700 
