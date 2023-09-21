@@ -1,4 +1,4 @@
-import AmazonLogo from '../src/assets/Amazon.svg'
+import AmazonLogo from '../assets/Amazon.svg'
 export default function WorkHistoryTab() {
  return (
    <div className="join join-vertical w-1/2 z-30 border-2 rounded-none bg-port-turquiose border-gray-900">

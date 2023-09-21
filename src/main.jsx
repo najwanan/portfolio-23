@@ -2,13 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client'
 import { StyledEngineProvider } from '@mui/material/styles';
 import App from './App.jsx';
-// import MobileNavBar from '../components/MobileNavBar.jsx';
-import Header from '../components/header.jsx'
-import Hero from '../components/Hero.jsx'
-import Footer from '../components/Footer.jsx'
-import Bio from '../components/Intro.jsx'
-import Work from '../components/Work.jsx'
-import ProgramEquity from '../components/ProgramEquity.jsx'
+import Header from './components/Header.jsx'
+import Hero from './components/Hero.jsx'
+import Footer from './components/Footer.jsx'
+import Bio from './components/Intro.jsx'
+import Work from './components/Work.jsx'
+import ProgramEquity from './components/ProgramEquity.jsx'
 
 
 import './index.css'

@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { withRouter } from 'next/router';
-import HamReg from '../src/assets/HamReg.svg';
-import HamX from '../src/assets/HamX.png';
+import HamReg from '../assets/HamReg.svg';
+import HamX from '../assets/HamX.png';
 
 
 function MobileNavBar() {

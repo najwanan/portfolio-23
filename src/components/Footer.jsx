@@ -1,7 +1,7 @@
-import MeditationLogo from '../src/assets/Meditation.svg'
-import CodeLogo from '../src/assets/Code.svg'
-import CopybookLogo from '../src/assets/Copybook.svg'
-import SeahawksLogo from '../src/assets/SeattleSeahawks.svg'
+import MeditationLogo from '../assets/Meditation.svg'
+import CodeLogo from '../assets/Code.svg'
+import CopybookLogo from '../assets/Copybook.svg'
+import SeahawksLogo from '../assets/SeattleSeahawks.svg'
 
 export default function Footer() {
     return (
