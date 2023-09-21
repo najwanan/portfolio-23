@@ -21,8 +21,8 @@ function Bio() {
             <p className=" text-md md:text-xl text-left break-normal font-mono font-medium p-8 leading-loose ">
               Now this is the story all about how 
               <br/>I flipped my career, turned upside down 
-              <br/> And I’d like to take a minute, just sit right there
-               <br/> I’ll tell you how I became a software engineer 
+              <br/> And I&apos;d like to take a minute, just sit right there
+               <br/> I&apos;ll tell you how I became a software engineer 
           </p>
         </div>
         <div className="">
@@ -41,7 +41,7 @@ function Bio() {
             <p className="text-md md:text-xl text-left break-normal font-mono font-medium  leading-loose ">
               After years of supporting tech products at organizations like Amazon and Microsoft as a program manager, I decided I wanted to be able to build products myself. <br />
               <br/>
-              I've dedicated the past half decade to just that, honing the skillset necessary to become a technologist. I use this skillset to partner with organizations and individuals working to create a more inclusive, sustainable, and equitable tech industry.
+              I&apos;ve dedicated the past half decade to just that, honing the skillset necessary to become a technologist. I use this skillset to partner with organizations and individuals working to create a more inclusive, sustainable, and equitable tech industry.
     
           </p>
           </div>
@@ -68,7 +68,7 @@ function Bio() {
                     Support both allies and female identifying business leaders with their change initiatives for the tech industry . For example serving as a brand ambassador for <a className="text-bold text-port-turquiose" href="https://www.linkedin.com/company/tribaja/about/" target="_blank" rel="noopener noreferrer"> Tribaja.</a>
               </li>
                <li className='p-4'>
-                   Sometimes I get to build cool things with my friends and bring people along to learn. I'm currently part of the team <a className="text-bold text-port-turquiose" href="https://www.linkedin.com/feed/update/urn:li:activity:7098676443542421504/" target="_blank" rel="noopener noreferrer">building products in public</a>  for Mentor Mesh.
+                   Sometimes I get to build cool things with my friends and bring people along to learn. I&apos;m currently part of the team <a className="text-bold text-port-turquiose" href="https://www.linkedin.com/feed/update/urn:li:activity:7098676443542421504/" target="_blank" rel="noopener noreferrer">building products in public</a>  for Mentor Mesh.
               </li>
 
             </ul>

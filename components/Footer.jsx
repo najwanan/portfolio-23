@@ -104,9 +104,9 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className="bg-port-sunset">
+        <div className="bg-port-black">
             <div className="container px-5 py-4 mx-auto">
-                <p className="text-sm text-gray-700 capitalize xl:text-center">Made with 100% Grit by Najwana N</p>
+                <p className="text-sm text-port-cream capitalize xl:text-center">Made with 100% Grit by Najwana N</p>
             </div>
         </div>
     </footer>
