@@ -1,4 +1,4 @@
-import DevToLogo from '../src/assets/devTo.svg'
+import InstagramLogo from '../src/assets/Instagram.svg'
 import LinkedinLogo from '../src/assets/LinkedIn.svg'
 import GithubLogo from '../src/assets/GitHub.svg'
 // import Image from 'next/image'
@@ -6,7 +6,7 @@ import GithubLogo from '../src/assets/GitHub.svg'
 function PESocialMedia () {
     return (
         <div>
-            <div className=" flex flex-row space-x-4 mt-8 justify-center">
+            <div className=" flex flex-rowspace-x-4 px-4 mt-20 ml-12 justify-center">
             <a
               href="https://www.linkedin.com/company/programequity/"
               target="_blank"
@@ -17,7 +17,7 @@ function PESocialMedia () {
               className=" "
               src={GithubLogo}
               alt="github-logo"
-              width={35}
+               width={35}
               height={33}
              
             />
@@ -46,7 +46,7 @@ function PESocialMedia () {
           >    
             <img
               className="float-right"
-              src={DevToLogo}
+              src={InstagramLogo}
               alt="facebook-logo"
               width={35}
               height={33}

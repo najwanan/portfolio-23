@@ -30,7 +30,7 @@ export default function Hero() {
         </section>
 
         <div className="z-10 bg-transparent absolute top-1/2 left-0 w-full">
-         <h1 className="z-10 font-poppins sm:text-xl md:text-6xl text-bold text-port-white">Najwana Nashmin</h1>
+         <h1 className="z-10 font-poppins sm:text-3xl md:text-6xl p-8 text-bold  text-port-cream">Najwana Nashmin</h1>
         </div>
 
         <div className="z-10 bg-transparent ml-36 absolute top-3/4 w-full">
@@ -54,7 +54,7 @@ export default function Hero() {
       </div>
     
         
-         <section className="flex md:hidden flex-row">
+         <section className="flex w-full md:hidden ">
                 {/* <div className="flex flex-col h-screen w-1/10 justify-center items-center bg-port-citron border-solid border-black" /> */}
                 <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-turquiose" />
                 <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-magenta" />

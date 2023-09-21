@@ -6,7 +6,7 @@ import App from './App.jsx';
 import Header from '../components/header.jsx'
 import Hero from '../components/Hero.jsx'
 import Footer from '../components/Footer.jsx'
-import Bio from '../components/Bio.jsx'
+import Bio from '../components/Intro.jsx'
 import Work from '../components/Work.jsx'
 import ProgramEquity from '../components/ProgramEquity.jsx'
 
