@@ -22,7 +22,12 @@ const ProgramEquity = () => {
 text-left">Program Equity provides open source mentorship through the software engineering fellowship with a goal of bridging the gap between bootcamp curriculum and enterprise architecture workflows .</p>
             <p className="mt-4 text-lg font-dmserif text-gray-700 
 text-left"> Over the course of 12 weeks fellows get the opportunity to collaborate with a network of mentors that cover everything from security best practices to developer relations. Together our combined efforts maintain PE’s main product <span> <a className="text-bold underline"  target="_blank"
-              rel="noreferrer" href="https://amplify-app-production.herokuapp.com/">Amplify,</a></span> a tool used to enable climate change policies. </p>
+                rel="noreferrer" href="https://amplify-app-production.herokuapp.com/">Amplify,</a></span> a tool used to enable climate change policies.
+            </p>
+            <p className="mt-4 text-lg font-dmserif text-gray-700 
+text-left">Swipe through to learn more. </p>
+           
+            
 
             <h3 className="mt-8 text-lg text-left font-mono font-semibold text-gray-900">Join Us</h3>
             <p className="mt-4 text-lg font-dmserif text-gray-700 
