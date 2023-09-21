@@ -1,7 +1,7 @@
-import DevToLogo from '../src/assets/devTo.svg'
-import LinkedinLogo from '../src/assets/LinkedIn.svg'
-import GithubLogo from '../src/assets/GitHub.svg'
-import WebLogo from '../src/assets/Internet.svg'
+import DevToLogo from '../assets/devTo.svg'
+import LinkedinLogo from '../assets/LinkedIn.svg'
+import GithubLogo from '../assets/GitHub.svg'
+import WebLogo from '../assets/Internet.svg'
 // import Image from 'next/image'
 
 function PESocialMedia () {

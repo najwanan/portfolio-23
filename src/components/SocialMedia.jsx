@@ -1,6 +1,6 @@
-import InstagramLogo from '../src/assets/Instagram.svg'
-import LinkedinLogo from '../src/assets/LinkedIn.svg'
-import GithubLogo from '../src/assets/GitHub.svg'
+import InstagramLogo from '../assets/Instagram.svg'
+import LinkedinLogo from '../assets/LinkedIn.svg'
+import GithubLogo from '../assets/GitHub.svg'
 // import Image from 'next/image'
 
 function PESocialMedia () {

@@ -1,5 +1,5 @@
-import DUImg from '../src/assets/DUImg.svg';
-import RANDImg from '../src/assets/CAREP.svg';
+import DUImg from '../assets/DUImg.svg';
+import RANDImg from '../assets/CAREP.svg';
 
 
 
