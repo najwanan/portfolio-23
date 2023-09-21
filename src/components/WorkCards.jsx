@@ -18,7 +18,7 @@ export default function WorkCards() {
     <img src={DUImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="hidden md:block text-md  text-port-black font-dmserif text-justify w-full mt-8 mb-6">Data Umbrella is a global community for underrepresented persons in data science. DU focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events.</p> 
+      <p className="hidden md:block text-md  text-port-black font-dmserif text-justify w-full mt-8 mb-6">Data Umbrella is a global community for underrepresented persons in data science (gender, race, ethnicity, age, sexual orientation, disability, socioeconomic level and others). DU focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events.</p> 
      
           <div className="flex flex-row justify-left space-x-12 my-4">  
   
