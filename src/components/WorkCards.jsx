@@ -18,7 +18,7 @@ export default function WorkCards() {
     <img src={DUImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="hidden md:block text-md  text-port-black font-dmserif text-justify w-full mt-8 mb-6">Data Umbrella focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events</p> 
+      <p className="hidden md:block text-md  text-port-black font-dmserif text-justify w-full mt-8 mb-6">Data Umbrella is a global community for underrepresented persons in data science. DU focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events.</p> 
      
           <div className="flex flex-row justify-left space-x-12 my-4">  
   
@@ -82,7 +82,7 @@ export default function WorkCards() {
     <img src={DUImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="hidden md:block text-md text-port-black font-dmserif text-justify w-full mt-8 mb-6">Insight Agent is a product built for Build Justly, an organization that  build tools, processes, programs, and research to further digital equity efforts and make technology building practice less exclusionary. Insight Agent is a tool used to enable a study on technology efficacy for minority small business owners.</p> 
+      <p className="hidden md:block text-md text-port-black font-dmserif text-justify w-full mt-8 mb-6">Insight Agent is a product built for Build Justly, an organization that  build tools, processes, programs, and research to further digital equity efforts. Insight Agent is a tool used to enable a study on technology efficacy for minority small business owners. Note: Insight Agent is a product deployed within studies; the link below is for the general website of Build Justly.</p> 
      
     <div className="flex justify-left space-x-12 my-4">       
             <button className="btn-glass bg-port-citron text-gray-700  px-4 py-2 rounded-md w-1/3"
@@ -91,7 +91,13 @@ export default function WorkCards() {
                window.open(url, '_blank');
 							}}
             >  Code </button>
-        <button className="bg-port-tangerine text-gray-700   px-4 py-2 rounded-md w-1/3">Live Site</button>
+            <button className="bg-port-tangerine text-gray-700   px-4 py-2 rounded-md w-1/3"
+             onClick={() => {
+               const url = "https://buildjustly.org/";
+               window.open(url, '_blank');
+							}}
+          
+            > Site</button>
     </div>
     </div>
             
