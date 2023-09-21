@@ -82,10 +82,15 @@ export default function WorkCards() {
     <img src={DUImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="hidden md:block text-md text-port-black font-dmserif text-justify w-full mt-8 mb-6">Insight Agent is a project for Build Justly, An organization that  build tools, processes, programs, and research to further digital equity efforts and make technology building practice less exclusionary.</p> 
+      <p className="hidden md:block text-md text-port-black font-dmserif text-justify w-full mt-8 mb-6">Insight Agent is a product built for Build Justly, an organization that  build tools, processes, programs, and research to further digital equity efforts and make technology building practice less exclusionary. Insight Agent is a tool used to enable a study on technology efficacy for minority small business owners.</p> 
      
     <div className="flex justify-left space-x-12 my-4">       
-        <button className="btn-glass bg-port-citron text-gray-700  px-4 py-2 rounded-md w-1/3">  Code </button>
+            <button className="btn-glass bg-port-citron text-gray-700  px-4 py-2 rounded-md w-1/3"
+              onClick={() => {
+               const url = "https://github.com/specollective/insights-agent-desktop-app";
+               window.open(url, '_blank');
+							}}
+            >  Code </button>
         <button className="bg-port-tangerine text-gray-700   px-4 py-2 rounded-md w-1/3">Live Site</button>
     </div>
     </div>

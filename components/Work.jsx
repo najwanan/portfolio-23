@@ -2,8 +2,8 @@ import WorkCards from "./WorkCards";
 
 export default function Work() {
     return (
-        <section>
-        <div id="Work" className="flex flex-col bg-port-cream py-4 px-12">
+        <section className="z-10">
+        <div id="Work" className="flex flex-col z-10  bg-port-cream py-4 md:px-12">
         <div className="py-4">
             {/* <div className="pl-[116px] pr-[205px] py-8"> */}
                 <div className="text-7xl font-extrabold text-poppins text-black">FEATURED WORK</div>
