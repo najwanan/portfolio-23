@@ -18,11 +18,11 @@ function Bio() {
         </div>
       <div className="grid md:grid-cols-2 mt-20 m-10 ">
         <div className="bg-port-citron z-0 shadow-md shadow-yellow-900">
-            <p className=" text-md md:text-xl text-left break-normal font-mono font-medium p-8 leading-loose ">
+            <p className=" text-md md:text-lg text-left break-normal font-mono font-medium p-8 leading-loose ">
               Now this is the story all about how 
               <br/>I flipped my career, turned upside down 
               <br/> And I&apos;d like to take a minute, just sit right there
-               <br/> I&apos;ll tell you how I became a software engineer 
+              <br/> I&apos;ll tell you how I became a software engineer 
           </p>
         </div>
         <div className="">
@@ -38,7 +38,7 @@ function Bio() {
         </div>
 
             <div className="bg-port-poppy shadow-md shadow-yellow-900 z-10 p-10 md:-ml-20 md:-mt-20">
-            <p className="text-md md:text-xl text-left break-normal font-mono font-medium  leading-loose ">
+            <p className="text-md md:text-lg text-left break-normal font-mono font-medium  leading-loose ">
               After years of supporting tech products at organizations like Amazon and Microsoft as a program manager, I decided I wanted to be able to build products myself. <br />
               <br/>
               I&apos;ve dedicated the past half decade to just that, honing the skillset necessary to become a technologist. I use this skillset to partner with organizations and individuals working to create a more inclusive, sustainable, and equitable tech industry.
@@ -54,7 +54,7 @@ function Bio() {
     
 
             <div className="bg-port-citron shadow-md  shadow-yellow-900 z-10 md:-ml-20 md:-mt-20">
-            <p className="text-md md:text-xl text-left break-normal font-mono font-medium pt-10 pl-10 leading-loose ">
+            <p className="text-md md:text-lg text-left break-normal font-mono font-medium pt-10 pl-10 leading-loose ">
               Some highlights from my journey:
             </p>
             <ul className="text-left w-full p-8 list-disc list-inside font-mono">
