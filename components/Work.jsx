@@ -2,6 +2,7 @@ import WorkCards from "./WorkCards";
 
 export default function Work() {
     return (
+        <section>
         <div id="Work" className="flex flex-col bg-port-cream py-4 px-12">
         <div className="py-4">
             <div className="pl-[116px] pr-[205px] py-8">
@@ -10,6 +11,7 @@ export default function Work() {
             </div>
         </div>
         <WorkCards />
-     </div>
+            </div>
+            </section>
     )
 }

@@ -7,7 +7,7 @@ const ProgramEquity = () => {
     <section id="learn" className="py-10 bg-port-cream sm:py-16 lg:py-24 ">
       <div className="max-w-6xl px-4  sm:px-6 lg:px-8 ">
         <div className=" text-left md:max-w-lg lg:max-w-2xl md:text-left"> 
-          <h2 className="text-3xl font-bold leading-tight p-4 rounded-xl text-port-cream bg-port-turquiose sm:text-4xl lg:text-5xl lg:leading-tight textShadow-default">
+          <h2 className="text-3xl font-bold leading-tight p-4 rounded-xl text-port-cream bg-port-black sm:text-4xl lg:text-5xl lg:leading-tight textShadow-default">
             Program Equity
            
              
@@ -17,7 +17,7 @@ const ProgramEquity = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 w-full mt-8 md:mt-20 gap-y-6 gap-x-10">
+        <div className="grid lg:grid-cols-2 w-full mt-8 md:mt-20 gap-y-6 gap-x-10">
           <div>
             <h3 className="text-lg text-left font-mono font-semibold text-gray-900">Helping the next generation of software engineers ship climate tech</h3>
             <p className="mt-4 font-dmserif text-lg  text-gray-700 

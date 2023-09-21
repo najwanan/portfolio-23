@@ -5,7 +5,7 @@ import RANDImg from '../src/assets/CAREP.svg';
 
 export default function WorkCards() {
     return (
-     <div className=" flex flex-col lg:flex-row space-y-8 md:space-y-0 space-x-0 md:space-x-8 items-center justify-center">
+     <div className=" flex flex-col lg:flex-row space-y-8 md:space-x-8 items-center justify-center">
             {/* first card */}
     <div className=" w-4/5 lg:w-1/3 md:h-160 p-6 border border-port-turquiose rounded-lg shadow-lg">
     <div>
@@ -41,7 +41,7 @@ export default function WorkCards() {
     </div>
 
     {/* /second card       */}
-  <div className=" w-4/5 md:w-1/3 md:h-160 p-6 border border-port-citron rounded-lg shadow-lg">
+  <div className=" w-4/5 lg:w-1/3 md:h-160 p-6 border border-port-citron rounded-lg shadow-lg">
     <div>
         <h3 className="text-lg font-regular  font-mono text-left text-port-black">Front End</h3>
         <h3 className="text-lg font-regular  font-mono text-left text-port-black">Product: Website</h3>
@@ -71,7 +71,7 @@ export default function WorkCards() {
     </div>
             {/* /third card */}
 
-    <div className=" w-4/5 md:w-1/3 md:h-160 p-6 border border-port-magenta rounded-lg shadow-lg">
+    <div className=" w-4/5 lg:w-1/3 md:h-160 p-6 border border-port-magenta rounded-lg shadow-lg">
     <div>
         <h3 className="text-lg font-regular  font-mono text-left text-port-black">Front End</h3>
         <h3 className="text-lg font-regular  font-mono text-left text-port-black">Product: Insights Agent</h3>
