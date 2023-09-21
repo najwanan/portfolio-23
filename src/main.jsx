@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client'
 import { StyledEngineProvider } from '@mui/material/styles';
 import App from './App.jsx';
-import Header from './components/header.jsx'
+import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Footer from './components/Footer.jsx'
 import Bio from './components/Intro.jsx'
