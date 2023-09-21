@@ -3,7 +3,7 @@
 //boiler template for react component
 const Header = () => {
     return (
-        <div className="flex bg-transparent absolute top-0 left-0 w-full h-50 justify-end">
+        <div className="flex bg-black opacity-80 absolute top-0 left-0 w-full h-50 justify-end">
             <div className="hidden md:flex flex-row space-x-1 mr-12 ">
                 <a href="#intro"
                 ><h1 className="font-mono text-port-cream font-extralight text-3xl p-6" >About</h1></a>

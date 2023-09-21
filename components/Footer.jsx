@@ -69,7 +69,7 @@ export default function Footer() {
         </div>
         <div className="bg-port-sunset">
             <div className="container px-5 py-4 mx-auto">
-                <p className="text-sm text-gray-700 capitalize xl:text-center">© 2020 All rights reserved </p>
+                <p className="text-sm text-gray-700 capitalize xl:text-center">Made with 100% Grit by Najwana N</p>
             </div>
         </div>
     </footer>

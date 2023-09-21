@@ -1,5 +1,5 @@
 
-import WorkHistoryTab from "./WorkHistoryTab"
+// import WorkHistoryTab from "./WorkHistoryTab"
 import SocialMedia from './SocialMedia'
 
 
@@ -8,10 +8,10 @@ function Bio() {
 
      <section className="bg-port-cream">
 
-    <div id="intro"className="h-screen w-screen justify-center bg-port-cream">
+    <div id="intro"className=" w-screen justify-center bg-port-cream z-10">
    
-        <div className="flex justify-left ">
-        <h1 className="ml-20 mt-12 text-7xl font-extrabold text-poppins text-black">Intro</h1>
+        <div className="flex flex-col md:flex-row md:justify-left ">
+        <h1 className="md:ml-20 mt-12 text-5xl md:text-7xl font-extrabold text-poppins text-black">Intro</h1>
         <SocialMedia />
         </div>
       <div className="grid md:grid-cols-2 mt-20 m-10 ">
@@ -73,8 +73,8 @@ function Bio() {
         </div>
         
     </div>
-     
-      <WorkHistoryTab/>
+{/*      
+      <WorkHistoryTab/> */}
     </section>
 
    

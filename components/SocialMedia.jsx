@@ -6,7 +6,7 @@ import GithubLogo from '../src/assets/GitHub.svg'
 function PESocialMedia () {
     return (
         <div>
-            <div className=" flex flex-rowspace-x-4 px-4 mt-20 ml-12 justify-center">
+            <div className=" flex flex-rowspace-x-4 px-4 mt-6 md:mt-20 md:ml-12 justify-center">
             <a
               href="https://github.com/najwanan"
               target="_blank"

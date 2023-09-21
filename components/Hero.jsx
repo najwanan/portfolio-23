@@ -30,10 +30,10 @@ export default function Hero() {
         </section>
 
         <div className="z-10 bg-transparent absolute top-1/2 left-0 w-full">
-         <h1 className="z-10 font-poppins sm:text-3xl md:text-6xl p-8 text-bold  text-port-cream">Najwana Nashmin</h1>
+         <h1 className="z-10 font-poppins text-3xl md:text-6xl p-8 text-bold  text-port-cream">Najwana N.</h1>
         </div>
 
-         <div className="z-10 bg-transparent md:ml-36 absolute top-3/4 w-1/2">
+         <div className="z-10 bg-black p-8  absolute border-port-cream border-2 opacity-85 top-2/3 left-1/4 w-1/2">
          <TypeWriterEffect
         textStyle={{
           fontFamily: 'Poppins',
@@ -45,11 +45,12 @@ export default function Hero() {
         cursorColor="#FEFAE0"
         multiText={[
           `Hey there I&aposm a software engineer`,
+          `this is the second line`
 
         ]}
         loop={true}
         nextTextDelay={1000}
-        typeSpeed={30}
+        typeSpeed={100}
       />
       </div> 
     
@@ -69,7 +70,7 @@ export default function Hero() {
                 
                 <div className="flex flex-col h-screen w-1/12 justify-center items-center bg-port-poppy" />
 
-                  <div className="flex flex-col h-screen  w-1/12 justify-center items-center bg-port-sunset" />
+                  <div className="flex flex-col h-screen  w-1/6 justify-center items-center bg-port-sunset" />
             </section>
  
     </div>
