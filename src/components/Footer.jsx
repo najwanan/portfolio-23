@@ -86,7 +86,7 @@ export default function Footer() {
                     </nav>
                 </div>
                 <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-                    <h2 className="mb-3 text-sm font-medium font-poppins tracking-widest text-gray-900 uppercase title-font">Building an App <br/> for Mentor Mesh</h2>
+                    <h2 className="mb-3 text-sm font-medium font-poppins tracking-widest text-gray-900 uppercase title-font">Building In Public A Social<br/> App for a tech  community</h2>
                     <nav className="mb-10 list-none">
                         <li className="mt-3 flex justify-center">
                                 
