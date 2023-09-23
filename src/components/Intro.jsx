@@ -67,9 +67,9 @@ function Bio() {
               <li className='p-4'>
                     Support both allies and female identifying business leaders with their change initiatives for the tech industry . For example serving as a brand ambassador for <a className="text-bold text-port-turquiose" href="https://www.linkedin.com/company/tribaja/about/" target="_blank" rel="noopener noreferrer"> Tribaja.</a>
               </li>
-               <li className='p-4'>
+               {/* <li className='p-4'>
                    Sometimes I get to build cool things with my friends and bring people along to learn. I&apos;m currently part of the team <a className="text-bold text-port-turquiose" href="https://www.linkedin.com/feed/update/urn:li:activity:7098676443542421504/" target="_blank" rel="noopener noreferrer">building products in public</a>  for Mentor Mesh.
-              </li>
+              </li> */}
 
             </ul>
           </div>

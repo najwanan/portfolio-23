@@ -1,11 +1,12 @@
 import DUImg from '../assets/DUImg.svg';
 import RANDImg from '../assets/CAREP.svg';
+import BuildJImg from '../assets/buildJ2.svg';
 
 
 
 export default function WorkCards() {
     return (
-     <div className=" flex flex-col lg:flex-row space-y-8 md:space-x-8 items-center justify-center">
+     <div className=" flex flex-col lg:flex-row space-y-8 md:space-y-4 md:space-x-8 items-center justify-center">
             {/* first card */}
     <div className=" w-4/5 lg:w-1/3 md:h-160 p-6 border border-port-turquiose rounded-lg shadow-lg">
     <div>
@@ -14,11 +15,11 @@ export default function WorkCards() {
     <h1 className="text-2xl font-extrabold  font-poppins text-left  text-port-black">Data Umbrella</h1>
     </div>
     
-    <div className="flex justify-center mb-8 h-40"> 
+    <div className="flex justify-center h-40"> 
     <img src={DUImg} alt="Logo" className=""/>
     </div>  
                 
-      <p className="hidden md:block text-md  text-port-black font-dmserif text-justify w-full mt-8 mb-6">Data Umbrella is a global community for underrepresented persons in data science (gender, race, ethnicity, age, sexual orientation, disability, socioeconomic level and others). DU focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events.</p> 
+      <p className="hidden md:block text-md  text-port-black font-dmserif text-justify w-full mt-2 mb-6">Data Umbrella is a global community for underrepresented persons in data science (gender, race, ethnicity, age, sexual orientation, disability, socioeconomic level and others). DU focuses on providing educational resources and community support for data science and open-source initiatives. The data event board is a product that DU created for the community to organize events.</p> 
      
           <div className="flex flex-row justify-left space-x-12 my-4">  
   
@@ -48,7 +49,7 @@ export default function WorkCards() {
     <h1 className="text-2xl font-extrabold  font-poppins text-left  text-port-black">RAND Center to Advance Racial Equity Policy</h1>
     </div>
     
-    <div className="flex justify-center mb-8 h-40"> 
+    <div className="flex justify-center mt-4 mb-8 h-40"> 
     <img src={RANDImg} alt="Logo" className=""/>
     </div>  
                 
@@ -78,8 +79,8 @@ export default function WorkCards() {
     <h1 className="text-2xl font-extrabold  font-poppins text-left  text-port-black">Build Justly</h1>
     </div>
     
-    <div className="flex justify-center mb-8 h-40"> 
-    <img src={DUImg} alt="Logo" className=""/>
+    <div className="flex justify-center mt-4 mb-8 h-40"> 
+    <img src={BuildJImg} alt="Logo" className=""/>
     </div>  
                 
       <p className="hidden md:block text-md text-port-black font-dmserif text-justify w-full mt-8 mb-6">Insight Agent is a product built for Build Justly, an organization that  build tools, processes, programs, and research to further digital equity efforts. Insight Agent is a tool used to enable a study on technology efficacy for minority small business owners. Note: Insight Agent is a product deployed within studies; the link below is for the general website of Build Justly.</p> 
