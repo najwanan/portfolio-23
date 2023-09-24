@@ -33,7 +33,7 @@ export default function Hero() {
          <h1 className="z-10 font-poppins text-3xl md:text-6xl p-8 font-medium text-port-cream">Najwana N.</h1>
         </div>
 
-         <div className="z-10 bg-transparent opacity-80 p-4 flex justify-center absolute rounded-md border-port-cream border-2 opacity-85 top-2/3 left-1/4 w-1/2">
+         <div className="z-10 bg-port-black opacity-100 p-4 flex justify-center absolute rounded-md border-port-black border-2 opacity-85 top-2/3 left-1/4 w-1/2">
          <TypeWriterEffect
         textStyle={{
           fontFamily: 'Poppins',
