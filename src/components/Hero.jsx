@@ -38,7 +38,7 @@ export default function Hero() {
         textStyle={{
           fontFamily: 'Poppins',
           color: '#FEFAE0',
-          fontWeight: 300,
+          fontWeight: 200,
           fontSize: '1.5em',
         }}
         startDelay={2000}
